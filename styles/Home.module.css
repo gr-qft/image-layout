@@ -144,4 +144,20 @@
     max-width: 400px;
     max-height: 400px;
   }
+
+  .us .frame > div {
+    width: 601px;
+    height: 321px;
+    padding: 2.5em;
+  }
+
+  .us .frame > div > h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+
+  .us .frame > div > p {
+    font-size: 1rem;
+    margin-top: 1em;
+  }
 }
