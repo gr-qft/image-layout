@@ -14,8 +14,12 @@ export default function Home() {
       <div className={styles.ad}>
         <img src="/img/icecream.jpg" alt="tall ice cream" />
         <div className={styles.frame}>
-          <h1> Top 10 Hottest Flavours </h1>
-          <h1> Summer 2021 </h1>
+          <div>
+            <div>
+              <h1>Top 10 </h1> <h1> Hottest Flavours </h1>
+            </div>
+            <h1> Summer 2021 </h1>
+          </div>
         </div>
       </div>
 
@@ -51,7 +55,7 @@ export default function Home() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <p>
                   Duis aute irure dolor in reprehenderit in voluptate velit esse

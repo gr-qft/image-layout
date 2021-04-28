@@ -48,17 +48,22 @@
   height: 7.8125em;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.ad .frame > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0.625em 0.65625em;
+  height: 100%;
 }
 
 .ad .frame h1 {
   color: #fff;
   font-weight: 700;
   font-size: 1.875rem;
+  display: inline-block;
 }
 
 .items > div .frame {
@@ -169,6 +174,30 @@
     width: 601px;
     height: 321px;
     padding: 2.5em;
+  }
+
+  .ad .frame {
+    top: 50%;
+    height: 19.375em;
+  }
+
+  .ad .frame > div {
+    width: 19.25em;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ad .frame > div > div > h1 + h1 {
+    margin-top: 0.5em;
+  }
+
+  .ad .frame h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
   }
 
   .us .frame > div > h1 {
