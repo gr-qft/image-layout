@@ -103,6 +103,10 @@
 }
 
 @media (min-width: 375px) {
+  .ad .frame h1 {
+    font-size: 1.5rem;
+  }
+
   .us .frame > div > h1 {
     color: #fff;
     font-weight: 700;
