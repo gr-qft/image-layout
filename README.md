@@ -28,6 +28,10 @@ https://github.com/gr-qft/image-layout/blob/main/styles/Home.module.css
 
 - Since the goal is to achieve a responsive layout from the mockup, I've focused on using HTML and CSS and not on creating React components.
 - In a real work environment, I would communicate with the designers to clarify what is wanted precisely for the UI in between the two screen sizes. Here I aim for a simple solution where there is one column for Iphone 8 size, a centered column for all sizes up until the desktop size.
+
+- In a real work environment, I would also
+  ask about the margin, padding, other measurements, and image assets.
+
 - The demo is tested with browser developer tool as well as with a real Iphone X, an Ipad, and a desktop monitor. I've added extra CSS so that the layout look correctly for all these cases.
 
 ### Screenshots
