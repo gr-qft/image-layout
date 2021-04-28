@@ -28,10 +28,14 @@
 }
 
 .ad,
+.items > div {
+  margin-bottom: var(--item-margin);
+}
+
+.ad,
 .items > div,
 .us {
   position: relative;
-  margin-bottom: var(--item-margin);
 }
 
 .frame {
@@ -103,6 +107,10 @@
 }
 
 @media (min-width: 400px) {
+  .content {
+    padding: 2em;
+  }
+
   .ad .frame h1 {
     font-size: 1.5rem;
   }
@@ -119,7 +127,6 @@
   .content {
     flex-direction: row;
     align-items: stretch;
-    padding: 2em;
     max-width: 1400px;
     --item-margin: 0;
   }
