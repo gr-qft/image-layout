@@ -13,37 +13,37 @@ export default function Home() {
     <div className={styles.content}>
       <div className={styles.ad}>
         <img src="/img/icecream.jpg" alt="tall ice cream" />
-        {/* <div className={styles.frame}>
+        <div className={styles.frame}>
           <h1> Top 10 Hottest Flavours </h1>
           <h1> Summer 2021 </h1>
-        </div> */}
+        </div>
       </div>
 
       <div className={styles.products}>
         <div className={styles.items}>
           <div>
             <img src="/img/ubeicecream.jpg" alt="ube" />
-            {/* <div className={styles.frame}>
+            <div className={styles.frame}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Button> Get it </Button>
               </div>
-            </div> */}
+            </div>
           </div>
 
           <div>
             <img src="/img/Avocado-Ice-Cream-4-1.jpg" alt="avocado" />
-            {/* <div className={styles.frame}>
+            <div className={styles.frame}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Button backgroundColor="#206C00"> Get it </Button>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 
         <div className={styles.us}>
           <img src="/img/moreicecream.jpg" alt="ube" />
 
-          {/* <div className={styles.frame}>
+          <div className={styles.frame}>
             <div>
               <h1> Our Ice Cream Philosophy </h1>
               <p>
@@ -59,7 +59,7 @@ export default function Home() {
                 mollit anim id est laborum.
               </p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
