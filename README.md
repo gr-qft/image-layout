@@ -30,7 +30,7 @@ https://github.com/gr-qft/image-layout/blob/main/styles/Home.module.css
 - In a real work environment, I would communicate with the designers to clarify what is wanted precisely for the UI in between the two screen sizes. Here I aim for a simple solution where there is one column for Iphone 8 size, a centered column for all sizes up until the desktop size.
 
 - In a real work environment, I would also
-  ask about the margin, padding, other measurements, and image assets.
+  ask about the margin, padding, other measurements, and image assets. Moreover, I would more likely create some utility classes and use them instead of using selectors excessively.
 
 - The demo is tested with browser developer tool as well as with a real Iphone X, an Ipad, and a desktop monitor. I've added extra CSS so that the layout look correct for all these cases.
 
