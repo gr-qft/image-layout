@@ -32,7 +32,7 @@ https://github.com/gr-qft/image-layout/blob/main/styles/Home.module.css
 - In a real work environment, I would also
   ask about the margin, padding, other measurements, and image assets.
 
-- The demo is tested with browser developer tool as well as with a real Iphone X, an Ipad, and a desktop monitor. I've added extra CSS so that the layout look correctly for all these cases.
+- The demo is tested with browser developer tool as well as with a real Iphone X, an Ipad, and a desktop monitor. I've added extra CSS so that the layout look correct for all these cases.
 
 ### Screenshots
 
