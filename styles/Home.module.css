@@ -102,7 +102,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 400px) {
   .ad .frame h1 {
     font-size: 1.5rem;
   }
