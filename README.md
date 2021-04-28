@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Image layout
 
-## Getting Started
+### General Info
 
-First, run the development server:
+- Link to mockup:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+https://www.figma.com/file/kRIpfyZQj4LV19qKFpvLtA/New-Dev-Test?node-id=1%3A132
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Link to live site:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+https://image-layout.vercel.app/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- To run the local project, pull and `yarn dev`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- CSS reset, Roboto font, and background color are set in
 
-## Learn More
+https://github.com/gr-qft/image-layout/blob/main/styles/globals.css
 
-To learn more about Next.js, take a look at the following resources:
+- The main layout is written in
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://github.com/gr-qft/image-layout/blob/main/pages/index.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+and the style file is kept in
 
-## Deploy on Vercel
+https://github.com/gr-qft/image-layout/blob/main/styles/Home.module.css
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Comments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Since the goal is to achieve a responsive layout from the mockup, I've focused on using HTML and CSS and not on creating React components.
+- In a real work environment, I would communicate with the designers to clarify what is wanted precisely for the UI in between the two screen sizes. Here I aim for a simple solution where there is one column for Iphone 8 size, a centered column for all sizes up until the desktop size.
+- The demo is tested with browser developer tool as well as with a real Iphone X, an Ipad, and a desktop monitor. I've added extra CSS so that the layout look correctly for all these cases.
+
+### Screenshots
+
+#### Fullscreen
+
+![full](shots/full.png)
+
+#### Small screen
+
+![full](shots/small1.png)
+
+![full](shots/small2.png)
+
+![vid](shots/vid.mov)
