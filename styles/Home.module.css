@@ -111,7 +111,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .content {
     flex-direction: row;
     align-items: stretch;
