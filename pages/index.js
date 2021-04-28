@@ -1,65 +1,67 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css";
+
+function Button({ children, backgroundColor = "#7D63B9" }) {
+  return (
+    <button style={{ backgroundColor }} className={styles.button}>
+      {children}
+    </button>
+  );
+}
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className={styles.content}>
+      <div className={styles.ad}>
+        <img src="/img/icecream.jpg" alt="tall ice cream" />
+        {/* <div className={styles.frame}>
+          <h1> Top 10 Hottest Flavours </h1>
+          <h1> Summer 2021 </h1>
+        </div> */}
+      </div>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <div className={styles.products}>
+        <div className={styles.items}>
+          <div>
+            <img src="/img/ubeicecream.jpg" alt="ube" />
+            {/* <div className={styles.frame}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Button> Get it </Button>
+              </div>
+            </div> */}
+          </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div>
+            <img src="/img/Avocado-Ice-Cream-4-1.jpg" alt="avocado" />
+            {/* <div className={styles.frame}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Button backgroundColor="#206C00"> Get it </Button>
+              </div>
+            </div> */}
+          </div>
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+        <div className={styles.us}>
+          <img src="/img/moreicecream.jpg" alt="ube" />
+
+          {/* <div className={styles.frame}>
+            <div>
+              <h1> Our Ice Cream Philosophy </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.{" "}
+              </p>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+          </div> */}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
