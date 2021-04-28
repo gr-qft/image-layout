@@ -86,11 +86,11 @@
   margin-bottom: 1.875em;
 }
 
-.us .frame > div > p {
+.us .frame > div p {
   color: #fff;
   font-weight: 700;
   font-size: 0.75rem;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .button {
@@ -100,6 +100,15 @@
   font-size: 1.375rem;
   color: #fff;
   cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .us .frame > div > h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -156,7 +165,7 @@
     margin-bottom: 1em;
   }
 
-  .us .frame > div > p {
+  .us .frame > div p {
     font-size: 1rem;
     margin-top: 1em;
   }
