@@ -10,7 +10,7 @@ https://www.figma.com/file/kRIpfyZQj4LV19qKFpvLtA/New-Dev-Test?node-id=1%3A132
 
 https://image-layout.vercel.app/
 
-- To run the local project, pull and `yarn dev`.
+- To run the local project, pull and `yarn dev`, then access on `http://localhost:3000/`. By the way, I'm using **Next.js**.
 
 - CSS reset, Roboto font, and background color are set in
 
@@ -46,4 +46,6 @@ https://github.com/gr-qft/image-layout/blob/main/styles/Home.module.css
 
 ![full](shots/small2.png)
 
-![vid](shots/vid.mov)
+### Video screenshot
+
+[vid](shots/vid.mov)
